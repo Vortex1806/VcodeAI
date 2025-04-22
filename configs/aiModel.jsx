@@ -31,7 +31,7 @@ export const chatSession = model.startChat({
     generationConfig,
     history: [
     ],
-});
+})
 
 export const GenAiCode = model.startChat({
     generationConfig: codeGenerationConfig,

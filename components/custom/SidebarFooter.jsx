@@ -52,7 +52,6 @@ const SideBarFooter = () => {
                     }} className="w-full flex justify-start my-3" variant="ghost" key={index}>
                         <option.icon />
                         {option.name}
-
                     </Button>
                 ))
             }
